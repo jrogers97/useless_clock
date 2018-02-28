@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+}
+
+body {
+	background-color: black;
+}
+
+.header {
+	color: white;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.content {
+	/*display: flex;*/
+}
+
+.highlight {
+	color: rgba(255,255,255,1);
+}
+
+.hours, .minutes, .seconds {
+	margin: 0 auto;
+	width: 40%;
+	padding-bottom: 40px;
+}
+
+.hours  {
+	vertical-align: top;
+}
+
+.minutes, .seconds {
+	font-size: 14px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	color: rgba(255,255,255,0.4);
+	list-style-type: none;
+	display: inline-block;
+}
+
