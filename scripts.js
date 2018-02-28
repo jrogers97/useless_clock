@@ -2,18 +2,18 @@
 $(document).ready(function() {
 	setInterval(function() {
 
-		let new_date = new Date();
-		let hours_24 = new_date.getHours();
+		var new_date = new Date();
+		var hours_24 = new_date.getHours();
 
-		let hours;
+		var hours;
 		if (hours_24 !== 0 && hours_24 !== 12) {
 			hours = hours_24 % 12
 		} else {
 			hours = 12
 		}
 
-		let minutes = new_date.getMinutes();
-		let seconds = new_date.getSeconds();
+		var minutes = new_date.getMinutes();
+		var seconds = new_date.getSeconds();
 	
 		var hours_str = hours.toString();
 		var minutes_str = minutes.toString();
