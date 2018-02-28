@@ -1,5 +1,11 @@
+
 $(document).ready(function() {
 	setInterval(function() {
+
+
+
+setInterval(function() {
+
 		let new_date = new Date();
 		let hours_24 = new_date.getHours();
 
@@ -31,6 +37,7 @@ $(document).ready(function() {
 		// 	"seconds: ", seconds);
 
 	}, 1000);
+
 
 	
 });
@@ -68,3 +75,4 @@ $(document).ready(function() {
 // 		// 	"seconds: ", seconds);
 
 // 	}, 1000);
+
